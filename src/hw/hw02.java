@@ -13,8 +13,14 @@ public class hw02 {
 		while(m<n){
 			sum++;
 			m=m+sum;
+			if(m>n){
+				sum--;
+				System.out.print("程俱计m="+sum);
+			}
+			else if(m==n)
+				System.out.print("程俱计m="+sum);
 		}
-		System.out.print("程俱计m="+sum);
+		
 		
 		
 		
